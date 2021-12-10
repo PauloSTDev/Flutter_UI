@@ -25,6 +25,7 @@ class MaterialAppWithTheme extends StatelessWidget {
     return MaterialApp(
       home: HomePage(),
       theme: theme.getTheme(),
+
       //ThemeData(
         //primarySwatch: Colors.red,
         //brightness: Brightness.dark,
