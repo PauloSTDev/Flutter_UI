@@ -1,36 +1,30 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/model/theme.dart';
+import 'package:provider/provider.dart';
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key, required this.title}) : super(key: key);
-  String title;
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
+class HomePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-
+    ThemeChanger _themeChanger = Provider.of<ThemeChanger>(context);
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: const Text("Projeto de Estudos"),
+        actions: [
+          IconButton(
+          onPressed: ()=> _themeChanger.setTheme(ThemeData.dark()),
+              icon: Icon(Icons.account_circle)),
+          IconButton(
+              onPressed: ()=> _themeChanger.setTheme(ThemeData.light()),
+              icon: Icon(Icons.account_circle_outlined)),
+        ],
       ),
-      body: Center(
+      body: Container(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'Teste',
-              style: Theme.of(context).textTheme.headline4,
-            ),
+          children: [
+            FlatButton(onPressed: ()=> _themeChanger.setTheme(ThemeData.dark()), child: Text("Theme Dark")),
+            FlatButton(onPressed: ()=> _themeChanger.setTheme(ThemeData.light()), child: Text("Theme Light")),
           ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
+        )
       ),
     );
   }
