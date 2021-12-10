@@ -12,6 +12,7 @@ flutter_launcher_icons 0.9.2
 
 E os componentes/Widgets:
 Brightness ✔️
+
 Rich Text
 Flexible
 Expanded
