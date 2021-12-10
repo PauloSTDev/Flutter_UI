@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
         //brightness: Brightness.dark,
       ),
-      home: MyHomePage(title: "Projeto de estudos"),
+      home: MyHomePage(title: "Projeto de estudo"),
     );
   }
 }
