@@ -2,15 +2,15 @@
 
 Projeto para estudos e pratica
 
-Projeto criado para implementar os packages:
+Implementação dos packages:
 
-Provider ✔️(notifyListeners() ✔️ Navigator.of(context) ✔️)
+Provider ✔️notifyListeners() ✔️ Navigator.of(context) ✔️
 
 dynamic_themes
 
-introduction_screen ✔️(PageViewModel() ✔️done e onDone ✔️)
+introduction_screen ✔️PageViewModel() ✔️done e onDone ✔️
 
-flutter_native_splash
+flutter_native_splash ✔️// flutter clean && flutter pub get && flutter pub run flutter_native_splash:create
 
 google_fonts
 
