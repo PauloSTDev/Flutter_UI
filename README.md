@@ -4,11 +4,11 @@ Projeto para estudos e pratica
 
 Projeto criado para implementar os packages:
 
-Provider ✔️(notifyListeners() ✔️ Navigator.of(context) ✔️)
+Provider ✔️notifyListeners() ✔️ Navigator.of(context) ✔️
 
 dynamic_themes
 
-introduction_screen ✔️(PageViewModel() ✔️done e onDone ✔️)
+introduction_screen ✔️PageViewModel() ✔️done e onDone ✔️
 
 flutter_native_splash
 
