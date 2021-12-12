@@ -8,6 +8,8 @@ Provider ✔️notifyListeners() ✔️ Navigator.of(context) ✔️
 
 dynamic_themes
 
+flutter_launcher_icons ✔️flutter_icons ✔️
+
 introduction_screen ✔️PageViewModel() ✔️done e onDone ✔️
 
 flutter_native_splash ✔️// flutter clean && flutter pub get && flutter pub run flutter_native_splash:create
@@ -15,8 +17,6 @@ flutter_native_splash ✔️// flutter clean && flutter pub get && flutter pub r
 google_fonts
 
 lint
-
-flutter_launcher_icons
 
 
 E os componentes/Widgets:

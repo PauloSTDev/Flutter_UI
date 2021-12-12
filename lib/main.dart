@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ui/controller/theme.dart';
 import 'package:flutter_ui/view/onboarding_page.dart';
 import 'package:provider/provider.dart';
+
 void main() {
   runApp(MyApp());
 }
