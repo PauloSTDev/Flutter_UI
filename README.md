@@ -14,6 +14,8 @@ introduction_screen ✔️PageViewModel() ✔️done e onDone ✔️
 
 flutter_native_splash ✔️// flutter clean && flutter pub get && flutter pub run flutter_native_splash:create
 
+NavigationRail ✔️
+
 google_fonts
 
 lint
